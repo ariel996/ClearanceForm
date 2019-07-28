@@ -1,0 +1,41 @@
+body {
+    background: #333;
+    color: #fff;
+}
+
+.navbar {
+    border-bottom: #008ed6 3px solid;
+    opacity: 0.8;
+}
+
+#home-section {
+    background: url("img/image.jpeg") no-repeat;
+    min-height: 590px;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.dark-overlay {
+    background-color: rgba(0,0,0,0.7);
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    min-height: 590px;
+}
+
+.home-inner {
+    padding-top: 110px;
+}
+
+.card-form {
+    opacity: 0.8;
+}
+
+.fa {
+    color: #008ed6;
+    background: #fff;
+    padding: 4px;
+    border-radius: 5px;
+    font-size: 30px;
+}
